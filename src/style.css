@@ -1,0 +1,19 @@
+:root {
+  font-family: 'Inter', sans-serif;
+
+  --custom-White: hsl(0, 0%, 100%);
+  --custom-Grey: hsl(0, 0%, 20%);
+  --custom-DarkGrey: hsl(0, 0%, 12%);
+  --custom-OffBlack: hsl(0, 0%, 8%);
+  --custom-Green: hsl(75, 94%, 57%)
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--custom-OffBlack);
+}
