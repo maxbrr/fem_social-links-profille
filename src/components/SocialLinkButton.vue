@@ -4,7 +4,7 @@ defineProps(["title", "url"]);
 
 <template>
   <a :href="url" id="socialLinkButton">
-    <h3>{{ title }}</h3>
+    <h4>{{ title }}</h4>
   </a>
 </template>
 
@@ -20,6 +20,10 @@ defineProps(["title", "url"]);
   align-items: center;
   margin-top: 10px;
   border-radius: 2mm;
+}
+
+h4 {
+  font-weight: 600;
 }
 
 

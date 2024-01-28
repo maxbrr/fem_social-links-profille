@@ -22,7 +22,7 @@ import SocialLinkButton from './SocialLinkButton.vue';
 #socialLinkCard {
   background-color: var(--custom-DarkGrey);
   width: 480px;
-  height: 700px;
+  height: 740px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,8 +32,9 @@ import SocialLinkButton from './SocialLinkButton.vue';
 #avatar {
   border-radius: 50%;
   width: 100px;
-  padding-top: 60px;
-  padding-bottom: 40px;
+  height: 100px;
+  margin-top: 50px;
+  margin-bottom: 40px;
 }
 
 #name {
@@ -55,10 +56,13 @@ import SocialLinkButton from './SocialLinkButton.vue';
 
 #socialLinkButtons {
   width: 400px;
-  height: 320px;
+  height: 380px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+}
+
+#socialLinkButtons > * {
+  margin-bottom: 10px;
 }
 </style>
