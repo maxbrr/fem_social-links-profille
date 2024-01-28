@@ -22,9 +22,22 @@ defineProps(["title", "url"]);
   border-radius: 2mm;
 }
 
+#socialLinkButton:hover h4{
+  color:black;
+}
+
+#socialLinkButton:hover {
+  background-color: var(--custom-Green);
+}
+
 h4 {
   font-weight: 600;
 }
 
+@media screen and (max-width: 375px){
+  #socialLinkButton {
+    width: 75%;
+  }
 
+}
 </style>

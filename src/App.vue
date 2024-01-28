@@ -10,6 +10,7 @@ import SocialLinkCard from './components/SocialLinkCard.vue';
 
 <style scoped>
 #app {
+  width: 100%;
   display: flex;
   justify-content: center;
   padding-top: 100px;

@@ -65,4 +65,17 @@ import SocialLinkButton from './SocialLinkButton.vue';
 #socialLinkButtons > * {
   margin-bottom: 10px;
 }
+
+@media screen and (max-width: 375px){
+  #socialLinkCard {
+    background-color: var(--custom-DarkGrey);
+    width: 335px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4mm;
+  }
+
+}
 </style>
