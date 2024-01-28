@@ -11,7 +11,7 @@ defineProps(["title", "url"]);
 <style scoped>
 #socialLinkButton {
   width: 85%;
-  height: 50px;
+  height: 44px;
   background-color: var(--custom-Grey);
   text-decoration: none;
   color: white;

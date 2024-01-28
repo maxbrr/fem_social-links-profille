@@ -9,11 +9,12 @@ import SocialLinkButton from './SocialLinkButton.vue';
     <h4 id="location">London, United Kingdom</h4>
     <h4 id="punchline">"Front-end developer and avid reader"</h4>
     <div id="socialLinkButtons">
+      <!-- Button title and the url it points to, can be injected with props -->
       <SocialLinkButton title="GitHub" url="www.github.com"/>
-      <SocialLinkButton title="Frontend Mentor" url="www.github.com"/>
-      <SocialLinkButton title="LinkedIn" url="www.github.com"/>
-      <SocialLinkButton title="Twitter" url="www.github.com"/>
-      <SocialLinkButton title="Instagram" url="www.github.com"/>
+      <SocialLinkButton title="Frontend Mentor" url="www.frontendmentor.com"/>
+      <SocialLinkButton title="LinkedIn" url="www.linkedin.com"/>
+      <SocialLinkButton title="Twitter" url="www.twitter.com"/>
+      <SocialLinkButton title="Instagram" url="www.instagram.com"/>
     </div>
   </div>
 </template>
@@ -68,14 +69,17 @@ import SocialLinkButton from './SocialLinkButton.vue';
 
 @media screen and (max-width: 375px){
   #socialLinkCard {
-    background-color: var(--custom-DarkGrey);
-    width: 335px;
-    height: 700px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 4mm;
+    width: 340px;
+    height: 590px;
   }
-
+  #avatar {
+  width: 90px;
+  height: 90px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  }
+  #name {
+    font-size: 22px;
+  }
 }
 </style>
